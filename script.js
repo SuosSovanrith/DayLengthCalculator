@@ -1,3 +1,3 @@
 function alertTest() {
-    window.alert("hihihihihi!");
+    window.alert("nice!");
 }
