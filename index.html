@@ -8,10 +8,55 @@
     <title>Day Length Calculator</title>
 </head>
 <body>
-    <p>Hi</p>
-    <button onclick="alertTest()">Click</button>
-    <p>hello</p>
-    <p>hehe</p>
-    <script src="script.js"></script>
+    <header>
+        <nav>
+            <ul id="navigation">
+                <li><a href="#pro1" class="btn">Mondulkiri</a>
+                </li>
+                <li><a href="#pro2" class="btn">Preah Sihanouk</a></li>
+            </ul>
+      </nav>
+    </header>
+    <main>
+        <section id="pro1">
+            <h1>Mondulkiri</h1>
+            <div class="dateContainer">    
+                <h4>Select a date</h3>
+                <input type="date" id="ddmmyy" value="" min="2023-01-01" max="2023-12-31">
+            </div>
+
+            <div class="buttonContainer">
+                <button class="button1" onclick="date_new()"><div></div></button>
+            </div>
+
+            <div class="resultContainer1">
+                <div class="icon"> <img src="https://cdn-icons-png.flaticon.com/512/3208/3208749.png" width="60px height 60px"> </div>
+                <div class="result1">1</div>
+                <div class="unit"> minutes per day</div>
+            </div> 
+
+            <div class="credit">Made by Suos Sovanrith</div>
+        </section>
+        <section id="pro2">
+            <h1>Preah Sihanouk</h1>
+            <div class="dateContainer">    
+                <h4>Select a date</h3>
+                <input type="date" id="ddmmyy" value="" min="2023-01-01" max="2023-12-31">
+            </div>
+
+            <div class="buttonContainer">
+                <button class="button1"><div></div></button>
+            </div>
+
+            <div class="resultContainer2">
+                <div class="icon"> <img src="https://cdn-icons-png.flaticon.com/512/3208/3208749.png" width="60px height 60px"> </div>
+                <div class="result2">1</div>
+                <div class="unit"> minutes per day</div>
+            </div>
+            
+            <div class="credit">Made by Suos Sovanrith</div>
+
+        </section>
+        <script src="script.js"></script>     
 </body>
 </html>
